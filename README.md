@@ -24,6 +24,11 @@ Saint Louis, MO
 
 ## System Requirement
 
+All the analysis have been run on a server with 12 CPUs and 128GB of RAM
 ## Data
+
+The variants callings for OVCAR3, OVCAR4 samples, and WUSTL patients are available on
+
+More information about sequenceing and variant calling is available in the manuscript. 
 
 ## Run the code
