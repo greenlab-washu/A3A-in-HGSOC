@@ -1,6 +1,8 @@
 # SBS signature analysis in ovarian cancers 
 The following information is associated with bioinformatics analysis included in the manuscript: 
-#### APOBEC3A drives metastasis of high-grade serous ovarianc cancer by altering epithelial-to-mesenchymal transition
+
+**APOBEC3A drives metastasis of high-grade serous ovarianc cancer by altering epithelial-to-mesenchymal transition**
+
 Jessica M. Devenport<sup>1,2</sup>, Thi Tran<sup>1</sup>, Brooke R. Harris<sup>1</sup>, Dylan F. Fingerman<sup>1,2</sup>, Rachel A. Deweerd<sup>1,2</sup>, 
 Lojain Elkhidir<sup>1</sup>, Danielle LaVigne<sup>1,3</sup>, Katherine Fuh<sup>5</sup>, Lulu Sun<sup>6</sup>, Jeffrey J. Bednarski<sup>1</sup>, 
 Ronny Drapkin<sup>7</sup>, Mary Mullen<sup>4</sup>, Abby M. Green<sup>1,8</sup>
@@ -24,7 +26,7 @@ Saint Louis, MO
 
 ## System Requirement
 
-All the analysis have been run on a server with 12 CPUs and 128GB of RAM
+All the analysis have been run on a server with 12 CPUs and 128GB of RAM. 
 ## Data
 
 The variants callings for OVCAR3, OVCAR4 samples, and WUSTL patients are available on
@@ -32,3 +34,14 @@ The variants callings for OVCAR3, OVCAR4 samples, and WUSTL patients are availab
 More information about sequenceing and variant calling is available in the manuscript. 
 
 ## Run the code
+1. Install all R dependencies. Check ``INSTALL.R`` for more details.
+2. Open R or R Studio.
+3. Set input and output directory.
+```
+#set input directory as where you store the variants calling data
+input_dir <- '/Users/username/Desktop/data'
+
+#set output directory 
+output_dir <- '/Users/username/Documents/output_dir'
+```
+4. Run the script in the ``code`` folder to perform COSMIC SBS signature extraction. 
